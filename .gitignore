@@ -45,6 +45,7 @@ playwright-report/
 !.env.*.example
 *.log
 
+
 # BMAD: keep shared framework, skills, plans and documentation
 _bmad/config.user.toml
 _bmad/custom/*.user.toml
