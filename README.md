@@ -9,4 +9,4 @@ Repoet inneholder gruppens applikasjon og dokumentasjon av utvikling, testing og
 - Djani Husomanovic
 - Ronja Flack Sandven
 - Vilde G Viggen
-- 
+- Majlinda Gjika
