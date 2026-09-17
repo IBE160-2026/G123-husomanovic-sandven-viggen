@@ -10,11 +10,11 @@ Første versjon utvikles bare for IBE160. Det gjør det mulig å begrense datame
 
 ## The Problem
 
-Studenter i IBE160 møter både faglig innhold og praktisk informasjon gjennom flere typer emneressurser. Relevant informasjon kan ligge i forelesningsnotater, pensum, oppgavebeskrivelser, kunngjøringer eller dokumenter som er publisert på ulike tidspunkt.
+Studenter må forholde seg til mye informasjon gjennom et kurs, og det kan være tidkrevende å finne akkurat det de trenger. Generelle søkemotorer og AI-verktøy gir tilgang til enorme mengder informasjon, men mye av denne informasjonen er ikke relevant for IBE160. 
+Dette kan være spesielt utfordrende for studenter som lærer programmering. De kan ha spørsmål om både kursinnhold og hvordan programmering fungerer, men kan få svært omfattende eller forskjellige svar avhengig av hvor de søker. 
+Problemet er derfor ikke nødvendigvis mangel på informasjon, men å finne riktig og relevant informasjon på en enkel måte. 
 
-Når en student har et konkret spørsmål, er det ikke alltid åpenbart hvilken ressurs som inneholder svaret. Studenten må kanskje huske hvor temaet ble omtalt, åpne flere dokumenter og prøve ulike søkeord. Dette er særlig upraktisk når spørsmålet er formulert annerledes enn teksten i dokumentet.
-
-Typiske situasjoner kan være:
+Når en student har et konkret spørsmål om emnet IBE160 kan typiske situasjoner være:
 
 - En student vil kontrollere hvilke krav som gjelder for en innlevering.
 - En student husker at RAG ble gjennomgått, men ikke i hvilken ressurs.
@@ -33,7 +33,7 @@ IBE160 Kursassistent samler tilgangen til emneinformasjon i et enkelt chatgrense
 Et svar skal bestå av:
 
 - en kort og forståelig forklaring
-- navn på kilden svaret bygger på
+- navn på kilden svaret bygger og kildelenke hvor studenten kan finne innholdet for å kontrolere informasjon.
 - lenke eller henvisning til riktig emneressurs når dette er tilgjengelig
 - en tydelig beskjed dersom svaret er usikkert eller ufullstendig
 
@@ -71,7 +71,7 @@ Det tekniske konkurransefortrinnet er ikke en egen språkmodell. Forskjellen lig
 
 ### Primærbrukere
 
-Primærbrukerne er studenter som tar **IBE160 Programmering med KI**. De kan ha ulik teknisk erfaring, men har til felles at de trenger å finne fram i emneinnholdet mens de arbeider med undervisning, øvinger eller prosjekt.
+Primærbrukerne er studenter som tar **IBE160 Programmering med KI**. De kan ha ulik teknisk erfaring, men har til felles at de trenger å finne fram i emneinnholdet mens de arbeider med øvinger eller prosjekt.
 
 En typisk bruker ønsker ikke nødvendigvis et langt svar. Studenten vil raskt vite hva som gjelder, hvor informasjonen kommer fra og hvor det finnes mer materiale. For studenten betyr et vellykket produkt at mindre tid brukes på leting, samtidig som svaret oppleves som mer pålitelig enn et svar uten kilde.
 
@@ -87,6 +87,7 @@ Etter en samtale skal studenten:
 2. vite hvilket emnemateriale svaret er basert på
 3. kunne åpne riktig ressurs for å lese videre
 4. forstå når løsningen ikke har grunnlag for et sikkert svar
+5. oppleve et forståelig og sikkert brukergrensesnitt
 
 ## Success Criteria
 
@@ -103,7 +104,7 @@ Produktet skal evalueres med et forhåndsdefinert testsett. Testsettet bør inne
 
 - Minst fire av fem testbrukere skal klare å finne fram til riktig emneinformasjon uten veiledning i hvordan dokumentene er organisert.
 - Testbrukerne skal gi løsningen et gjennomsnitt på minst **4 av 5** på påstanden «Det var enkelt å finne informasjonen jeg trengte».
-- Et standardsvar skal normalt vises innen fem sekunder under testing.
+- Et standardsvar skal normalt vises innen 20 sekunder under testing.
 - Brukerne skal oppfatte det som tydelig når svaret er usikkert eller kunnskapsbasen mangler informasjon.
 
 ### Prosjektets læringsresultat
@@ -161,8 +162,8 @@ Disse grensene skal gjøre første versjon mulig å gjennomføre, dokumentere og
 
 ## Vision
 
-Hvis IBE160 Kursassistent gir relevante og etterprøvbare svar, kan løsningen i løpet av to til tre år utvides trinnvis til flere emner. Hvert emne kan ha en egen kvalitetssikret kunnskapsbase, mens studenten bruker ett felles grensesnitt.
+Hvis IBE160 Kursassistent gir relevante og etterprøvbare svar, kan løsningen i løpet av to til tre år utvides i dybden til en betalt løsning med boken Agentic programming with Claude code i kunnskapsbasen. Eller at den utides utvides trinnvis til flere emner. Hvert emne kan ha en egen kvalitetssikret kunnskapsbase, mens studenten bruker ett felles grensesnitt.
 
-En videreutviklet studieassistent kan forstå hvilket emne spørsmålet gjelder, søke på tvers av godkjente ressurser og tilpasse videre lesing til studentens behov. Den kan for eksempel foreslå relevante forelesningsnotater, lage korte kontrollspørsmål eller hjelpe studenten med å repetere et tema. Slike funksjoner bør først innføres når kvaliteten på informasjonsgjenfinningen er dokumentert.
+En videreutviklet studieassistent kan forstå hvilket emne spørsmålet gjelder, søke på tvers av godkjente ressurser og tilpasse videre lesing til studentens behov. Den kan for eksempel foreslå relevante forelesningsnotater, lage korte kontrollspørsmål eller hjelpe studenten med å repetere et tema. Slike funksjoner bør først innføres når kvaliteten på informasjons søket er dokumentert.
 
 Den langsiktige visjonen er en pålitelig inngang til studiehverdagen som hjelper studenten fra **å finne informasjon** til **å arbeide aktivt med den**. Løsningen skal fortsatt bygge på synlige kilder og tydelige grenser, slik at økt funksjonalitet ikke går på bekostning av tillit.
