@@ -21,7 +21,8 @@ Når en student har et konkret spørsmål om emnet IBE160 kan typiske situasjone
 - En student trenger en kort forklaring av et fagbegrep før arbeidet kan fortsette.
 - En student vil finne materialet som er mest relevant for et bestemt tema.
 - En student er usikker på om en opplysning fortsatt gjelder.
-
+- En student vil fine eksempler på kildekode eller oppgave-instruksjoner til en bestemt oblig.
+- En student vil sjekke om en frist eller regel har blitt endret undervis i semestret.
 Studentene kan i dag lete manuelt, spørre medstudenter, kontakte faglærer eller bruke en generell chatbot. Manuelt søk tar tid, mens medstudenter ikke nødvendigvis kjenner det riktige svaret. En generell chatbot kan forklare fagbegreper, men har ikke automatisk tilgang til det konkrete innholdet og kravene i IBE160. Den kan derfor gi et generelt eller feilaktig svar med stor språklig sikkerhet.
 
 Konsekvensen er unødvendig leting, usikkerhet og gjentatte spørsmål om informasjon som allerede finnes. Det sentrale problemet er dermed ikke bare tilgang til informasjon, men tilgang til **riktig informasjon i riktig sammenheng**.
