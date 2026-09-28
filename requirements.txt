@@ -1,0 +1,17 @@
+# Grensesnitt
+streamlit==1.64.0
+
+# Kunnskapsbase: vektordatabase og lokale embeddings (ONNX, ingen PyTorch)
+chromadb==1.5.9
+fastembed==0.8.1
+
+# Språkmodell for svar
+anthropic==1.8.0
+
+# Lesing av kildedokumenter og konfigurasjon
+pypdf==6.1.1
+pyyaml==6.0.3
+python-dotenv==1.2.1
+
+# Testing
+pytest==8.4.2
